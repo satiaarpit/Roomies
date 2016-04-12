@@ -1,0 +1,19 @@
+{
+  "Bills" : [
+    {"Id" : 1,
+      "Amount" : 500,
+      "Date" : "26/12/2014",
+      "Shop" : "Ralph",
+      "Paid-By" : "Arpit",
+      "Shared-By" : "All"
+    },
+    {
+      "Id" : 2,
+      "Amount" : 500,
+      "Date" : "26/12/2014",
+      "Shop" : "Ralph",
+      "Paid-By" : "Arpit",
+      "Shared-By" : "All"
+    }
+  ]
+}

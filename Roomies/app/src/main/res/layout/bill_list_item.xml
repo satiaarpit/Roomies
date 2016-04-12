@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView android:id="@+id/dateLabel"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:text="Date : "
+        android:textColor="@color/basicColor"></TextView>
+    <TextView android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@id/dateLabel"
+        android:layout_toRightOf="@id/dateLabel"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:textColor="#000000">
+    </TextView>
+    <TextView android:id="@+id/amount"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:textColor="#000000"></TextView>
+    <TextView android:id="@+id/amountLabel"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Amount : "
+        android:layout_toStartOf="@id/amount"
+        android:layout_toLeftOf="@id/amount"
+        android:textSize="20dp"
+        android:textColor="@color/basicColor">
+    </TextView>
+    <TextView android:id="@+id/shopLabel"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Shop : "
+        android:textSize="20dp"
+        android:textColor="@color/basicColor">
+    </TextView>
+    <TextView android:id="@+id/shop"
+        android:layout_below="@id/date"
+        android:layout_toEndOf="@id/shopLabel"
+        android:layout_toRightOf="@id/shopLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:textColor="#000000">
+    </TextView>
+    <TextView android:id="@+id/paidBy"
+        android:layout_marginRight="5dp"
+        android:layout_below="@id/amount"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        ></TextView>
+    <TextView android:id="@+id/paidByLabel"
+        android:layout_below="@id/amount"
+        android:layout_toLeftOf="@id/paidBy"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Payer : "
+        android:textSize="20dp"
+        android:textColor="@color/basicColor"
+        ></TextView>
+    <TextView android:id="@+id/sharedByLabel"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@id/paidByLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Share : "
+        android:textSize="20dp"
+        android:textColor="@color/basicColor">
+    </TextView>
+    <TextView android:id="@+id/sharedBy"
+        android:layout_below="@id/paidByLabel"
+        android:layout_toRightOf="@id/sharedByLabel"
+        android:layout_toEndOf="@id/sharedByLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:textColor="#000000">
+    </TextView>
+</RelativeLayout>

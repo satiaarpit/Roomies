@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.asatia.roomies.AddBillFragment">
+
+    <RelativeLayout
+        style="@style/mainLayout"
+        android:id="@+id/billMain">
+        <TextView
+            android:text="Bill"
+            style="@style/titleStyle"
+            />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/addBillDate"
+        android:layout_below="@id/billMain"
+        android:layout_marginTop="32dp"
+        android:hint="Enter Bill Date"
+        style="@style/inputText"
+        android:editable="false"
+        />
+    <ImageView
+        style="@style/imageStyle"
+        android:src="@drawable/date_icon"
+        android:layout_alignBottom="@id/addBillDate"/>
+    <EditText
+        android:id="@+id/addBillAmount"
+        android:layout_below="@id/addBillDate"
+        android:layout_marginTop="8dp"
+        android:hint="Enter Bill Amount"
+        style="@style/inputText"
+        android:editable="false"
+        />
+    <ImageView
+        style="@style/imageStyle"
+        android:src="@drawable/dolar_o"
+        android:layout_alignBottom="@id/addBillAmount"/>
+    <EditText
+        android:id="@+id/addBillShop"
+        android:layout_below="@id/addBillAmount"
+        android:layout_marginTop="8dp"
+        android:hint="Enter the Shop name"
+        style="@style/inputText"
+        android:editable="false"
+        />
+    <ImageView
+        style="@style/imageStyle"
+        android:src="@drawable/shop"
+        android:layout_alignBottom="@id/addBillShop"/>
+
+    <EditText
+        android:id="@+id/addBillPayer"
+        android:layout_below="@id/addBillShop"
+        android:layout_marginTop="8dp"
+        android:hint="Enter Bill Payer"
+        style="@style/inputText"
+        android:editable="false"
+        />
+    <ImageView
+        style="@style/imageStyle"
+        android:src="@drawable/payer"
+        android:layout_alignBottom="@id/addBillPayer"/>
+
+    <EditText
+        android:id="@+id/addBillShare"
+        android:layout_below="@id/addBillPayer"
+        android:layout_marginTop="8dp"
+        android:hint="Enter Bill Sharer"
+        style="@style/inputText"
+        android:editable="false"
+        />
+    <ImageView
+        style="@style/imageStyle"
+        android:src="@drawable/share"
+        android:layout_alignBottom="@id/addBillShare"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/backButton"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="72dp"
+        android:layout_marginLeft="12dp"
+        android:layout_alignParentLeft="true"
+        app:backgroundTint="@color/buttonColor"
+        android:src="@drawable/backc"
+        />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/addBillButton"
+        style="@style/okButton"
+        app:backgroundTint="@color/buttonColor"/>
+</RelativeLayout>

@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.asatia.roomies.AddBillSharer">
+
+    <RelativeLayout
+        style="@style/mainLayout"
+        android:id="@+id/sharerMain"
+        android:layout_height="70dp">
+        <TextView
+            android:text="Sharer"
+            style="@style/titleStyle"
+            />
+    </RelativeLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/saveSharer"
+        style="@style/okButton"
+        app:backgroundTint="@color/buttonColor"
+        android:layout_marginTop="48dp"/>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/backButtonSharer"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="48dp"
+        android:layout_marginLeft="12dp"
+        android:layout_alignParentLeft="true"
+        app:backgroundTint="@color/buttonColor"
+        android:src="@drawable/backc"
+        />
+
+    <CheckedTextView
+        android:id="@+id/checkBoxAll"
+        style="@style/inputText"
+        android:text="All"
+        android:clickable="false"
+        android:checkMark="@drawable/unchecked"
+        android:layout_below="@id/sharerMain"
+        android:layout_marginTop="48dp"
+        ></CheckedTextView>
+
+    <CheckedTextView
+        style="@style/inputText"
+        android:id="@+id/checkBoxArpit"
+        android:layout_below="@id/checkBoxAll"
+        android:text="Arpit"
+        android:clickable="false"
+        android:checkMark="@drawable/unchecked"></CheckedTextView>
+
+    <CheckedTextView
+        style="@style/inputText"
+        android:id="@+id/checkBoxNirav"
+        android:layout_below="@id/checkBoxArpit"
+        android:checkMark="@drawable/unchecked"
+        android:text="Nirav"
+        android:clickable="false"></CheckedTextView>
+
+    <CheckedTextView
+        style="@style/inputText"
+        android:id="@+id/checkBoxRutvij"
+        android:layout_below="@id/checkBoxNirav"
+        android:checkMark="@drawable/unchecked"
+        android:text="Rutvij"
+        android:clickable="false"></CheckedTextView>
+
+    <CheckedTextView
+        style="@style/inputText"
+        android:id="@+id/checkBoxUtsav"
+        android:layout_below="@id/checkBoxRutvij"
+        android:checkMark="@drawable/unchecked"
+        android:text="Utsav"
+        android:clickable="false"></CheckedTextView>
+
+    <CheckedTextView
+        style="@style/inputText"
+        android:id="@+id/checkBoxValmik"
+        android:layout_below="@id/checkBoxUtsav"
+        android:checkMark="@drawable/unchecked"
+        android:text="Valmik"
+        android:clickable="false"></CheckedTextView>
+    <ImageView
+        style="@style/imageStyle"
+        android:id="@+id/image"
+        android:src="@drawable/date_icon"
+        android:layout_alignTop="@id/checkBoxAll"/>
+</RelativeLayout>
