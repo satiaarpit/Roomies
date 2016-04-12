@@ -4,7 +4,7 @@
 
 ## Inspiration :
 
-I just moved to USA, and wanted an app to use for managing money among room amtes. Wanted something simple but yet powerfull app, nd thus decided to develop 'Roomies', an app which helps you to manage your household expense among room mates
+I just moved to USA, and wanted an app to use for managing expenses among room amtes. Wanted something simple but yet powerfull app, and thus decided to develop 'Roomies', an app which helps you to manage your household expense among room mates
 
 
 ## What it does :
