@@ -11,17 +11,17 @@ I just moved into USA, and wanted an app to use for managing money among room am
 
 This is a mobile app that helps you to keep a track of expenses among room mates, generates a share sheet, so that you can settle amounts at the end!
 ##Features : 
-1) Add new bill. For adding new bill you need to fil in
-	a) Bill date
-	b) Bill amount
-	c) Shop name or description
-	d) Paid by : Select the peron who paid it
-	e) Shared by : The amount will be shared among
-2) Edit bills
-3) View bills
-4) View each persons contributon
-5) See each persons expense
-6) Settle amounts : This feature will provide a way for distributing amount. Once you settle amounts, it will automatically delete all the bills from your list.
+1) Add new bill. For adding new bill you need to fil in  
+	a) Bill date.  
+	b) Bill amount.  
+	c) Shop name or description.  
+	d) Paid by : Select the peron who paid it.  
+	e) Shared by : Whom the amount will be shared among.  
+2) Edit bills.  
+3) View bills.   
+4) View each persons contributon.  
+5) See each persons expense.  
+6) Settle amounts : This feature will provide a way for distributing amount. Once you settle amounts, it will automatically delete all the bills from your list.   
  
 ## Screenshots :
 ![alt text](https://github.com/satiaarpit/Roomies/blob/master/Roomies.jpg)
